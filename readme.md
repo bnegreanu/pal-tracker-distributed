@@ -2,7 +2,7 @@ pal-tracker-distributed codebase
 
 ```
 cd ~/workspace/assignment-submission
-./gradlew cloudNativeDeveloperDistributedSystemDeployment \
+./gradlew cloudNativeDeveloperDistributedSystemWithCircuitBreaker \
     -PregistrationServerUrl=https://registration-pal-djb.apps.evans.pal.pivotal.io \
     -PbacklogServerUrl=https://backlog-pal-djb.apps.evans.pal.pivotal.io \
     -PallocationsServerUrl=https://allocations-pal-djb.apps.evans.pal.pivotal.io \
