@@ -27,3 +27,7 @@ cd ~/workspace/assignment-submission
     curl -i -XPOST -H"Content-Type: application/json" https://timesheets-pal-djb.apps.evans.pal.pivotal.io/time-entries/ -d"{\"projectId\": 1, \"userId\": 1, \"date\": \"2015-05-17\", \"hours\": 6}"
     curl -i https://timesheets-pal-djb.apps.evans.pal.pivotal.io/time-entries?userId=1
 ```
+
+Token: 7e895995-d078-43d5-9996-250e153a2468
+
+curl localhost:8083 -H"Authorization: Bearer 7e895995-d078-43d5-9996-250e153a2468"
